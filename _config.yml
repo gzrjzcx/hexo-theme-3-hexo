@@ -220,8 +220,8 @@ gentie:
 gitalk:
   githubID: gzrjzcx
   repo: gzrjzcx.github.io
-  ClientID: 891633df9540ec724578
-  ClientSecret: 012103e75c027bbbe2b6687fb84be518d7bb9994
+  ClientID: ace8b1a7e41a82bdec9c
+  ClientSecret: 7319499a5d48752ac975d60e50caf6c22b38ea20
   adminUser: gzrjzcx
   distractionFreeMode: true
   language: zh-CN
