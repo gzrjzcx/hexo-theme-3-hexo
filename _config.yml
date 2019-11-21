@@ -125,7 +125,9 @@ article_list:
 # 文章列表背景图
 article_bg_img:
   on: true # 是否开启
-  src: https://i.loli.net/2019/07/22/5d3521411f3f169375.png
+  src: https://raw.githubusercontent.com/gzrjzcx/AlexsImageHosting/master/images/2019-11-21-16-56-44-bg_blog5.png
+
+# https://i.loli.net/2019/07/22/5d3521411f3f169375.png
   opacity: 0.3 # 背景图透明度，范围 0 ～ 1
 
 # 列表样式
@@ -200,7 +202,7 @@ friends:
 comment:
   on: true
   type: gitalk  # 评论系统：gitalk、disqus、gentie、gitment,注意：使用时，在下方对应位置进行配置
-  comment_count: true  # 文章标题下方显示评论数
+  comment_count: false  # 文章标题下方显示评论数
   preload_comment: false  # 预加载评论区
   ## false: 当点击评论条等区域时再加载评论模块
   ## true: 页面加载时加载评论区
