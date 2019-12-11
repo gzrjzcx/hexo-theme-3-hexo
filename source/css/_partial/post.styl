@@ -180,6 +180,53 @@
           margin-bottom 0px
       p
         margin 0 0 16px
+      .colorquote
+        position: relative;
+        padding: 0.1em 1.5em;
+        color: #4a4a4a;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        &:before
+            content: " ";
+            position: absolute;
+
+            top: 50%;
+            left: -14.5px;
+            margin-top: -12px;
+            width: 24px;
+            height: 24px;
+
+            border-radius: 50%;
+            text-align: center;
+
+            color: white;
+            background-size: 16px 16px;
+            background-position: 4px 4px;
+            background-repeat: no-repeat;
+        &.info
+            border-color: hsl(204, 86%, 53%);
+            background-color: hsl(204, 86%, 93%);
+            &:before
+                background-color: hsl(204, 86%, 53%);
+                background-image: url("../../img/info.svg");
+        &.success
+            border-color: hsl(141, 71%, 48%);
+            background-color: hsl(141, 70%, 88%);
+            &:before
+                background-color: hsl(141, 71%, 48%);
+                background-image: url("../../img/check.svg");
+        &.warning
+            border-color: hsl(48, 100%, 67%);
+            background-color: hsl(48, 100%, 91%);
+            &:before
+                background-color: hsl(48, 100%, 67%);
+                background-image: url("../../img/question.svg");
+        &.danger
+            border-color: hsl(348, 100%, 61%);
+            background-color: hsl(348, 100%, 85%);
+            &:before
+                background-color: hsl(348, 100%, 61%);
+                background-image: url("../../img/alert.svg");
       .inner-toc
         border: #e2dede solid 1px;
         border-radius: 10px;
